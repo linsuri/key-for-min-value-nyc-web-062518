@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
     current_value = hash
     if hash <= current_value
       output << name
+    end  
   end  
   output[0]
 end
